@@ -4,6 +4,8 @@
 
 ;space is reserved to be lead
 (nvim.set_keymap :n :<space> :<nop> {:noremap true})
+(nvim.set_keymap :c :vsplit "vert botright split" {})
+(nvim.set_keymap :n "<C-W><C-N>" ":vsplit<CR> :E<CR>"{})
 
 ;sets a nvim global options
 (let [options
@@ -23,6 +25,7 @@
        :clipboard "unnamedplus"
        ;show line numbers
        :number true
+       :rnu true
        ;show line and column number
        :ruler true
        ;makes signcolumn always one column with signs and linenumber
