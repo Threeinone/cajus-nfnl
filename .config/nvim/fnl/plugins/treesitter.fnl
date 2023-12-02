@@ -10,9 +10,11 @@
                                                     :dockerfile
                                                     :fennel
                                                     :html
+                                                    :janet_simple
                                                     :java
                                                     :javascript
                                                     :json
                                                     :lua
                                                     :markdown
+                                                    :scheme
                                                     :yaml]})))}]
